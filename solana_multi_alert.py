@@ -25,10 +25,10 @@ PUSHOVER_API_TOKEN = os.getenv("PUSHOVER_API_TOKEN", "YOUR_PUSHOVER_API_TOKEN")
 
 TOKENS = {
     # Приклад 1: Alert коли ціна вище $0.03
-    "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": {
-        "target": 0.027,
+    "2qT8JVotQ2C1gKbqpuqNatkpSBWxiKHbXkCyTqH9pump": {
+        "target": 0.00105,
         "direction": "above",
-        "name": "MyMemeCoin"  # опціонально, для зручності
+        "name": "soluna"  # опціонально, для зручності
     },
     
     # Приклад 2: Розкоментуй і додай інший токен
