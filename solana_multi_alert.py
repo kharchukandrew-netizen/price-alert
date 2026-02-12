@@ -26,7 +26,7 @@ PUSHOVER_API_TOKEN = os.getenv("PUSHOVER_API_TOKEN", "YOUR_PUSHOVER_API_TOKEN")
 TOKENS = {
     # Приклад 1: Alert коли ціна вище $0.03
     "2qT8JVotQ2C1gKbqpuqNatkpSBWxiKHbXkCyTqH9pump": {
-        "target": 0.00095,
+        "target": 0.0009,
         "direction": "above",
         "name": "soluna"  # опціонально, для зручності
     },
